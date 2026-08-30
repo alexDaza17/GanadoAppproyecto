@@ -1,0 +1,4 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <!-- Ese #E0E0E0 es el color gris clarito -->
+    <solid android:color="#E0E0E0"/>
+</shape>

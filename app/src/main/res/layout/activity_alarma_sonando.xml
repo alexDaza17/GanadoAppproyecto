@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B71C1C"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@android:drawable/ic_lock_idle_alarm"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tvAlarmaTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="¡Alarma de Vacunación!" />
+
+    <TextView
+        android:id="@+id/tvAlarmaMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        textAlignment="center"
+        android:text="Tienes un recordatorio pendiente en la finca." />
+
+    <Button
+        android:id="@+id/btnConfirmarAlarma"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#B71C1C"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="✅ Confirmar Recuerdo" />
+
+</LinearLayout>
